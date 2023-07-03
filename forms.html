@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medical registration form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>personal information</legend>
+            <ul>
+                <li><label for="full">full</label>
+                    <input type="text" name="text" id="full"></li>
+
+                <li><label for="place">place of birth</label>
+                    <input type="text" name="text" id="place"></li>
+
+                <li><label for="address">address</label>
+                    <input type="address" name="text" id=""></li>
+
+                <li><label for="email">email address</label>
+                    <input type="email" name="text" id="enter your email"></li>
+
+                <li><label for="pwd">pasword</label>
+                    <input type="password" name="text" id="pwd"></li>
+
+                <li><label for="tel">phone number</label>
+                    <input type="tel" name="text" id="phone"></li>
+
+                <li><label for="IDnum">ID no</label>
+                    <input type="number" name="number" id="IDnum" min="1000" max="2000"></li>
+
+                <li>Gender <br>
+                    <input type="radio" name="gender" id="gender">
+                    <label for="male">male</label>
+
+                    <input type="radio" name="gender" id="gender">
+                    <label for="female">female</label>
+                </li>
+
+                <li>
+                    status <br>
+                    
+                    <input type="radio" name="status" id="married">
+                    <label for="married">married</label>
+
+                    <input type="radio" name="status" id="single">
+                    <label for="single">single</label>
+
+                    <input type="radio" name="status" id="divorced">
+                    <label for="divorced">divorced</label>
+
+                    <input type="radio" name="status" id="others">
+                    <label for="others">others</label>
+
+                                                           
+                </li>
+
+                <li>
+                    <label for="work">Occupation</label>
+                    <select name="work" id="work">
+                       <optgroup label="full stack">
+                        <option value="prd">Product design</option>
+                        <option value="css">css</option>
+                        <option value="html">html</option>
+                        
+                        <optgroup label="front end">
+                        <option value="cod">coding</option>
+                        <option value="cod">coding</option>
+                        <option value="cod">coding</option>
+                        
+                        <optgroup label="back end">
+                        <option value="cod">coding</option>
+                        <option value="cod">coding</option>
+
+
+                    </select>
+                    
+                </li>
+            </fieldset>
+            <br>
+
+              <fieldset>
+                <legend>Emergency Contact Details</legend>
+                <ul>
+                    <li>
+                        <label for="cnct-name">contact name</label>
+                        <input type="text" name="contact name" id="cnct-name">
+                    </li>
+                    <li>
+                        <label for="home-nmb">home number</label>
+                        <input type="text" name="home number" id="home-nmb">
+                    </li>
+                    <li>
+                        <label for="state">state of origin</label>
+                        <select name="state" id="state">
+                            <optgroup label="south west">
+                                <option value="ogn">ogun</option>
+                                <option value="lgs">lagos</option>
+                            </optgroup>
+
+                            <optgroup label="south south">
+                                <option value="Dlt">Delta</option>
+                                <option value="Edo">Edo</option>
+
+                            </optgroup>
+
+                            <optgroup label="south east">
+                                <option value="enu">enugu</option>
+                                <option value="imo">imo</option>
+                                
+                            </optgroup>
+
+                            <optgroup label="North central">
+                                <option value="ben">benue</option>
+                                <option value="plt">platue</option>
+
+                            </optgroup>
+
+                            <optgroup label="North east">
+                                <option value="brn">borno</option>
+                                <option value="gmb">gombe</option>
+                            </optgroup>
+
+                            <optgroup label="North west">
+                                <option value="jig">jigawa</option>
+                                <option value="kb">kebbi</option>
+
+                            </optgroup>
+                        </select>
+                        
+                        
+                    </li>
+                    <li></li>
+                </ul>
+
+            </fieldset>
+
+                <fieldset>
+                    <legend>Oficial use Only</legend>
+                    <ul>
+                        <li>
+                            <label for="Dte">Date</label>
+                            <input type="date" name="" id="Dte">
+                        </li>
+                        <li>
+                            <label for="memt">membership type</label>
+                            <input type="text" name="" id="memt">
+                        </li>
+                        <li>
+                            <label for="memn">membership number</label>
+                            <input type="text" name="" id="memn">
+                        </li>
+                        <li>
+                            <label for="payt">payment type</label>
+                            <select name="payment" id="payt">
+                                <optgroup label="Bank transfer"></optgroup>
+                                <optgroup label="Cash"></optgroup>
+                                
+
+                            </select>
+                        </li>
+                        <li>
+                            <label for="stfn">staff name</label>
+                            <input type="text" name="" id="stfn">
+                        </li>
+                        <li>
+                            <label for="stffsgn">staff signature</label>
+                            <input type="file" name="" id="stffsgn">
+                        </li>
+                        <li>
+                            stack <br>
+                            <input type="checkbox" name="stack" id="react">
+                            <label for="react">react</label>
+
+                            <input type="checkbox" name="stack" id="react">
+                            <label for="angular">angular</label>
+
+                            <input type="checkbox" name="stack" id="react">
+                            <label for="Java">Java</label>
+
+                            <input type="checkbox" name="stack" id="react">
+                            <label for="flask">flask</label>
+
+                           
+                        </li>
+                    </ul>
+                    <button> submit</button>
+                </fieldset>
+               
+
+               
+              
+            
+            
+
+            
+        </ul>
+      
+    </form>
+</body>
+</html>
